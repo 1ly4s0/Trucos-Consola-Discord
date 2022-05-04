@@ -1,85 +1,80 @@
-**Note:** I'm not affilated with Discord and do not encourage using any of these hacks. Use everything here at your own risk. This is meant for **educational purposes only** and using these codeblocks may result in your account being disabled/terminated.
+**Nota:** No estoy afiliado a Discord y no animo a usar ninguno de estos trucos. Use todo aquí bajo su propio riesgo. Esto tiene el propósito **únicamente de fines educativos** y el uso de estos bloques de código puede resultar en la desactivación o cancelación de su cuenta.
 
-# Community
+# Comunidad
 
 <details>
-  <summary>We're switching to Matrix!</summary>
+  <summary>¡Tenemos servidor de Discord!</summary>
   
-Matrix is a community-based, decentralized, privacy friendly, end-to-end encrypted (super secure), uncensorable and open source messaging protocol, which unlike discord promotes custom clients and modifications. There are multiple different clients available, the most popular one (and also the refrence implementation) is Element. It runs on every OS and even has a pretty good web version. For more information check out https://matrix.org and https://element.io.<br>
-I often get asked: "*If Matrix/Element is so super awesome, why didn't you start using earlier?*"<br>
-Well actually I've been using Matrix for quite a long time now, Anonymous already switched to it many years ago. For me Matrix always has been something serious, I never really thought about using it for this Discord stuff.
+TECNO BROS es la mejor comunidad donde pasar el rato con nuestros usuarios amistosos.
 </details>
 
-Here's the invite to the community: https://matrix.to/#/#discord-oxygen:matrix.org
-
-The main community is on matrix, most channels are encrypted and can only be accessed from within matrix.
-For those of you who can't use Matrix we created the Discord Server, its bridged to the community (=every message you send in Discord automatically appears in matrix and vice-versa)<br>
-Here's the invite link: https://discord.gg/vs979cxECA (3rd server)<br>
+Invitación al servidor de Discord: https://discord.gg/tecnobros
 
 
-Please don't use console hacks not sent by me, or you might risk losing your account.<br>
-I'll update this invite regularly, if e.g. my account gets compromised or Discord shuts down the server, I will create a new account, a new server and then will update the invite above.<br>
-If the invite doesn't work anymore, it means the server got deleted and you need to wait until I can create a new account.
 
-# Inner workings of Discord
+No utilice trucos de consola no enviados por mí, o podría correr el riesgo de perder su cuenta.<br>
+Actualizaré esta invitación periódicamente, si p. mi cuenta se ve comprometida o Discord apaga el servidor, crearé una nueva cuenta, un nuevo servidor y luego actualizaré la invitación anterior.<br>
+Si la invitación ya no funciona, significa que el servidor se eliminó y debes esperar hasta que pueda crear una nueva cuenta.
+
+# Funcionamiento interno de Discord
 
 <details>
-  <summary>Click here</summary>
+  <summary>Presión aquí</summary>
 
-## Discord Token Syntax
+## Sintaxis del token de Discord
 
 <details>
 <table>
-  <tr><th></th><th>Example</th></tr>
-  <tr><td>User ID Encoded in Base64</td><td>NTzQvPcLBacBmgajXQc7QAaU</td></tr>
-  <tr><td>Dot</td><td>.</td></tr>
-  <tr><td>Timestamp -epoch(1293840000) converted to base64</td><td>XCgboz</td></tr>
-  <tr><td>Dot</td><td>.</td></tr>
-  <tr><td>HMAC consiting of 27 chars (uppercase/lowercase letters, numbers, - or _)</td><td>c4t51kFWSEmdmaPnKoyUuu8E78E</td></tr>
+  <tr><th></th><th>Ejemplo</th></tr>
+  <tr><td>ID de usuario codificado en Base64</td><td>NTzQvPcLBacBmgajXQc7QAaU</td></tr>
+  <tr><td>Punto</td><td>.</td></tr>
+  <tr><td>Timestamp -epoch(1293840000) convertido a base64</td><td>XCgboz</td></tr>
+  <tr><td>Punto</td><td>.</td></tr>
+  <tr><td>HMAC que consta de 27 caracteres (letras mayúsculas/minúsculas, números, - o _)</td><td>c4t51kFWSEmdmaPnKoyUuu8E78E</td></tr>
 </table>
-There is this awesome diagram from <a href="https://github.com/hxr404/Discord-Console-hacks/issues/2">#2</a> wich shows the exact token structure:<br><br>
-<img src="https://user-images.githubusercontent.com/34555296/120932740-4ca47480-c6f7-11eb-9270-6fb3fbbd856c.png"></img> <br>
+Existe este asombroso diagrama de <a href="https://github.com/hxr404/Discord-Console-hacks/issues/2">#2</a> que muestra la estructura exacta del token:<br><br >
+<img src="https://imagenes-de-usuario.githubusercontent.com/34555296/120932740-4ca47480-c6f7-11eb-9270-6fb3fbbd856c.png"></img> <br>
 </details>
 <br>
 
-## Discords Internal Server Structure
+## Estructura del servidor interno de Discords
+
+<detalles>
+Consulte este artículo sobre Discord de ingeniería inversa y la prueba de que Discord descifra sus datos cifrados: <a href="https://medium.com/tenable-techblog/lets-reverse-engineer-discord-1976773f4626">https:/ /medium.com/tenable-techblog/lets-reverse-engineer-discord-1976773f4626</a><br>
+También pueden leer sus mensajes (por ejemplo, en DM), registrar todas las ediciones y mensajes eliminados y grabar sus llamadas de voz.
+
+![gráfico](https://user-images.githubusercontent.com/55095883/116671170-e9f5e580-a9a0-11eb-98f9-3bcd65b9fdbf.png)
+
+<br>
+<sup>Cómo funciona el envío de mensajes de audio/video en Discord.</sup>
+</details>
+<br>
+</details>
+<br>
+
+# Trucos de consola
 
 <details>
-Check out this article about Reverse Engineering Discord, and the proof that Discord decrypts your encrypted data: <a href="https://medium.com/tenable-techblog/lets-reverse-engineer-discord-1976773f4626">https://medium.com/tenable-techblog/lets-reverse-engineer-discord-1976773f4626</a><br>
-They can also read your messages (e.g. in DM's), log all edits and deleted messages and record your voice calls.
-
-![grafik](https://user-images.githubusercontent.com/55095883/116671170-e9f5e580-a9a0-11eb-98f9-3bcd65b9fdbf.png)
-
-<br>
-<sup>How sending Audio/Video Messages in Discord Works.</sup>
-</details>
-<br>
-</details>
-<br>
-
-# Console Hacks
-
-<details>
-  <summary>Click Here</summary>
+  <resumen>Haga clic aquí</resumen>
   
 
-## Be Careful!
+## ¡Ten cuidado!
 
-As stated in my disclaimer, I don't promote using any kind of client modifications. Please don't use the code found here for illegal / hacking purposes, or you might risk seeing this error message:<br>
+Como se indica en mi descargo de responsabilidad, no promociono el uso de ningún tipo de modificación del cliente. No utilice el código que se encuentra aquí con fines ilegales o de piratería, o podría correr el riesgo de ver este mensaje de error:<br>
 
-![image](https://user-images.githubusercontent.com/55095883/134189043-4da003de-4829-4d60-888a-6014ebb5c2b8.png)
+![imagen](https://user-images.githubusercontent.com/55095883/134189043-4da003de-4829-4d60-888a-6014ebb5c2b8.png)
 
   
 
-## How to use these Hacks
+## Cómo usar estos trucos
 
-It only works on Desktop Versions (Windows, Linux, MacOS), not on Mobile.
-1. Press CTRL + SHIFT + I to toggle Developer Tools (Discord is electronjs wich is basically google chrome)
-2. Click on "Console" if not already selected
-3. Paste the script in
-4. Press enter
+Solo funciona en versiones de escritorio (Windows, Linux, MacOS), no en dispositivos móviles.
+1. Presione CTRL + SHIFT + I para alternar Herramientas de desarrollador (Discord es electronjs, que es básicamente Google Chrome)
+2. Haga clic en "Consola" si aún no está seleccionado
+3. Pegue el script en
+4. Presiona enter
 
-## Obtaining your Token
+## Obteniendo tu Token
 
 <details>
 <summary>Copies your Token into the clipboard.</summary>
