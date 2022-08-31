@@ -33,7 +33,7 @@ Si la invitación ya no funciona, significa que el servidor se eliminó y debes 
   <tr><td>HMAC que consta de 27 caracteres (letras mayúsculas/minúsculas, números, - o _)</td><td>c4t51kFWSEmdmaPnKoyUuu8E78E</td></tr>
 </table>
 Existe este asombroso diagrama de <a href="https://github.com/hxr404/Discord-Console-hacks/issues/2">#2</a> que muestra la estructura exacta del token:<br><br >
-<img src="https://imagenes-de-usuario.githubusercontent.com/34555296/120932740-4ca47480-c6f7-11eb-9270-6fb3fbbd856c.png"></img> <br>
+<img src="https://user-images.githubusercontent.com/34555296/120932740-4ca47480-c6f7-11eb-9270-6fb3fbbd856c.png"></img> <br>
 </details>
 <br>
 
